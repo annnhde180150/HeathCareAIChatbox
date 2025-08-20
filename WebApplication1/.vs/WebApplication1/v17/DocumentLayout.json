@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\views\\home\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\views\\home\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\views\\shared\\_chatlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\views\\shared\\_chatlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\webapplication1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C40D091-3F34-4238-B69C-60D5414BC393}|WebApplication1\\WebApp.csproj|solutionrelative:webapplication1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00D11AB-AEB9-4AE9-AA72-39A68E875F80}|BusinessObjects\\BusinessObjects.csproj|d:\\desktop\\heathcareaichatbox\\webapplication1\\businessobjects\\models\\heathcaresystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00D11AB-AEB9-4AE9-AA72-39A68E875F80}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\heathcaresystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T04:53:38.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T04:35:40.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ChatLayout.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Shared\\_ChatLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_ChatLayout.cshtml",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Shared\\_ChatLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_ChatLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T04:36:55.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-20T04:35:44.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T04:31:33.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T04:19:56.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T04:03:30.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T04:03:00.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chat.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Home\\Chat.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Chat.cshtml",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Views\\Home\\Chat.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Chat.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAEwPYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T04:00:23.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T04:00:16.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T04:00:13.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HeathcareSystemContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\BusinessObjects\\Models\\HeathcareSystemContext.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\HeathcareSystemContext.cs",
+              "ToolTip": "D:\\Desktop\\HeathCareAIChatbox\\WebApplication1\\BusinessObjects\\Models\\HeathcareSystemContext.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\HeathcareSystemContext.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:54:55.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.sourcelink.json
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
+D:\Desktop\HeathCareAIChatbox\WebApplication1\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll
