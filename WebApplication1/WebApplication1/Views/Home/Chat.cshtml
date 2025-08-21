@@ -665,54 +665,73 @@
                 messageText: messageText
             };
 
-            $.post("/Home/SendMessage", messageData, function (response) {
-                // Append user message to chat window
+
+        $.ajax({
+            url: "/Home/SendMessage",
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(messageData),
+            success: function (response) {
+                // Append user message vào chat window
                 appendMessage("User", messageText, true);
                 scrollToBottom();
 
-                // Show typing indicator
+                // Hiển thị typing indicator
                 showTypingIndicator();
 
-                // Send message to AI and get a response
+                // Sau khi lưu tin nhắn của user thành công -> Gọi API AI
                 $.ajax({
                     url: "http://127.0.0.1:8000/generate",
                     type: "POST",
-                    contentType: "application/json",
+                    contentType: "application/json; charset=utf-8",
                     data: JSON.stringify({ text: messageText }),
                     success: function (aiResponse) {
-                        // Remove typing indicator
+                        // Ẩn typing indicator
                         removeTypingIndicator();
 
-                        // Add AI response
-                        appendMessage("AI", aiResponse.responseText, true);
+                        // Append AI message
+                        appendMessage("AI", aiResponse.response, true);
                         scrollToBottom();
 
-                        // Save AI response to database
+                        // Lưu phản hồi AI vào database
                         var aiMessageData = {
                             sessionId: currentSessionId,
                             sender: "AI",
-                            messageText: aiResponse.responseText
+                            messageText: aiResponse.response
                         };
-                        $.post("/Home/SendMessage", aiMessageData);
+
+                        $.ajax({
+                            url: "/Home/SendMessage",
+                            type: "POST",
+                            contentType: "application/json; charset=utf-8",
+                            data: JSON.stringify(aiMessageData),
+                            success: function () {
+                                console.log("AI message saved successfully.");
+                            },
+                            error: function (xhr) {
+                                console.error("Error saving AI message:", xhr.responseText);
+                            }
+                        });
                     },
-                    error: function (jqXHR, textStatus, errorThrown) {
+                    error: function (jqXHR) {
                         removeTypingIndicator();
                         appendMessage("AI", "Xin lỗi, đã xảy ra lỗi khi xử lý yêu cầu của bạn.", true);
-                        console.error("Error getting AI response: " + jqXHR.responseText);
+                        console.error("Error getting AI response:", jqXHR.responseText);
                     },
-                    complete: function() {
-                        // Reset loading state
+                    complete: function () {
                         isLoading = false;
-                        $("#send-button").prop('disabled', false);
+                        $("#send-button").prop("disabled", false);
                     }
                 });
-
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                console.error("Error sending message: " + jqXHR.responseText);
-                alert("Lỗi khi gửi tin nhắn: " + jqXHR.responseText);
+            },
+            error: function (xhr) {
+                console.error("Error sending user message:", xhr.responseText);
+                alert("Lỗi khi gửi tin nhắn: " + xhr.responseText);
                 isLoading = false;
-                $("#send-button").prop('disabled', false);
-            });
+                $("#send-button").prop("disabled", false);
+            }
+        });
+
         }
 
         $(document).ready(function () {

@@ -75,6 +75,51 @@ namespace WebApplication1.Controllers
             return RedirectToAction("Login", "Home");
         }
 
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Register(RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                // Check if email already exists
+                if (_context.Users.Any(u => u.Email == model.Email))
+                {
+                    ModelState.AddModelError("Email", "Email already registered.");
+                    return View(model);
+                }
+
+                // Check if username already exists
+                if (_context.Users.Any(u => u.Username == model.Username))
+                {
+                    ModelState.AddModelError("Username", "Username already taken.");
+                    return View(model);
+                }
+
+                // Hash password
+                string hashedPassword = model.Password;
+
+                var newUser = new User
+                {
+                    Username = model.Username,
+                    Email = model.Email,
+                    PasswordHash = hashedPassword,
+                    CreatedAt = DateTime.UtcNow
+                };
+
+                _context.Users.Add(newUser);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Login", "Home");
+            }
+
+            return View(model);
+        }
+
         [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetChatSessions()
@@ -111,10 +156,16 @@ namespace WebApplication1.Controllers
                 return NotFound("Chat session not found or not authorized.");
             }
 
-            var messages = await _context.ChatMessages
+            var messages = _context.ChatMessages
                 .Where(m => m.SessionId == sessionId)
                 .OrderBy(m => m.CreatedAt)
-                .ToListAsync();
+                .Select(m => new {
+                    messageId = m.MessageId,
+                    sender = m.Sender,
+                    messageText = m.MessageText,
+                    createdAt = m.CreatedAt
+                })
+                .ToList();
 
             return Ok(messages);
         }
@@ -170,8 +221,16 @@ namespace WebApplication1.Controllers
 
             _context.ChatMessages.Add(newMessage);
             await _context.SaveChangesAsync();
+            var messageDto = new
+            {
+                newMessage.MessageId,
+                newMessage.SessionId,
+                newMessage.Sender,
+                newMessage.MessageText,
+                newMessage.CreatedAt
+            };
 
-            return Ok(newMessage);
+            return Ok(messageDto);
         }
 
         [Authorize]
@@ -198,15 +257,7 @@ namespace WebApplication1.Controllers
             public string MessageText { get; set; } = null!;
         }
 
-        [Authorize]
-        [HttpPost]
-        public async Task<IActionResult> GetAIResponse([FromBody] AIRequest request)
-        {
-            // Here you would integrate with your actual AI service (e.g., call a Python script, an external API, etc.)
-            // For now, let's return a simple placeholder response.
-            var aiResponseText = $"AI received: '{request.Message}' and will respond soon.";
-            return Ok(new AIResponse { ResponseText = aiResponseText });
-        }
+
 
         public class AIRequest
         {
